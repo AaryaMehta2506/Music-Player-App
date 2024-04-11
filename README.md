@@ -1,5 +1,3 @@
-It has Java and XML file
-
 Android Music Player App - 
 This is a simple music player Android application developed using Java and XML in Android Studio. The app allows users to play music files stored on their phones as well as audio files downloaded or received through WhatsApp.
 
