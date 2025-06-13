@@ -1,28 +1,77 @@
-Android Music Player App - 
-This is a simple music player Android application developed using Java and XML in Android Studio. The app allows users to play music files stored on their phones as well as audio files downloaded or received through WhatsApp.
+# 🎵 Music Player App (Python + Tkinter + Pygame)
 
-Features- 
-Play Local Music: Users can play music files stored on their device. & 
-Play WhatsApp Audios: The app also supports playing audio files received through WhatsApp. & 
-Simple Interface: The user interface is designed to be intuitive and easy to use. & 
-Media Controls: Basic media controls such as play, pause, skip, and seek are provided. & 
-Playlist Management: Users can create playlists and manage their music collection. & 
-Audio Visualization: Visual feedback such as waveform or spectrum analysis can enhance the listening experience. 
+A simple yet powerful desktop music player built with **Python**, featuring a **Tkinter GUI** and **Pygame backend**. Play, pause, skip tracks, adjust volume, and view playback progress—all in a clean, user-friendly interface.
 
-Usage- 
-Installation: Clone or download the repository to your local machine.
+---
 
-Open in Android Studio: Import the project into Android Studio.
+## 🚀 Features
 
-Run on Emulator or Device: Run the app on an emulator or connect your Android device and run the app on it.
+- ▶️ **Play / Pause / Stop** functionality  
+- ⏭️ **Next & Previous** track controls  
+- 🎚️ **Volume Adjustment** with slider  
+- 🕒 **Playback Progress** display  
+- 🎼 **Interactive Playlist** with song selection  
+- 🖼️ **Album Cover Art** support  
+- 🎛️ Built with **Tkinter** (UI) and **Pygame** (audio playback)
 
-Grant Permissions: Ensure the app has necessary permissions to access local storage and media files.
+---
 
-Explore and Play Music: Browse through your music collection or WhatsApp audio files and start playing them.
+## 🗂️ Project Structure
+Music-Player-App/
+├── player.py # Main Python script with Tkinter + Pygame logic
+├── requirements.txt # Python package requirements
+├── README.md # Project documentation
+└── LICENSE # MIT License file
 
+## ⚙️ Installation & Usage
 
-Contributing
-If you'd like to contribute to this project, feel free to fork the repository, make changes, and create a pull request.
+### 1. 🔄 Clone the Repository
+```
+git clone https://github.com/AaryaMehta2506/Music-Player-App.git
+cd Music-Player-App
+```
+### 2. 🧪 Install Dependencies
+```
+pip install -r requirements.txt
+```
+(Includes pygame and tkinter; tkinter usually comes pre-installed with Python.)
+### 3. 🚀 Run the App
+```
+python player.py
+A window opens showing your playlist and controls—select a track and start playing!
+```
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 🧠 How It Works
+Tkinter GUI displays the interface and handles user interactions.
+
+Pygame mixer loads and plays audio files (MP3/WAV).
+
+Controls manage playback (play, pause, stop, next, prev) and volume.
+
+A progress bar updates in real-time to reflect playback time.
+
+## 📝 Customization Tips
+Add your own music files in the designated folder.
+
+Modify the Tkinter layout, add theme or styling changes.
+
+Extend support for features like shuffle, repeat, or equalizer.
+
+## 🤝 Contributing
+All contributions are welcome! Suggested workflow:
+
+Fork the repo
+
+Create a feature branch (git checkout -b feature-name)
+
+Commit your changes (git commit -m 'Your message')
+
+Push and open a pull request
+
+## 📄 License
+This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE).
+
+## 👩‍💻 Author
+
+**Aarya Mehta**  
+🔗 [GitHub Profile](https://github.com/AaryaMehta2506)
